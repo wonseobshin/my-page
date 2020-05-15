@@ -6,7 +6,7 @@ import IconButton from '@material-ui/core/IconButton';
 import SearchIcon from '@material-ui/icons/Search';
 
 
-export default function HomePage() {
+export default function Navbar() {
   const [scrolled, setScrolled] = useState("");
 
   useEffect(()=>{

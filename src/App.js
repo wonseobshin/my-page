@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
 import Navbar from './components/Navbar';
+import PageModule from './components/PageModule';
 
 function App() {
   return (
@@ -20,8 +21,13 @@ function App() {
         >
           Learn React
         </a> */}
+
         Hello World!
       </header>
+      <PageModule title="lorem ipsum title" />
+      <PageModule title="lorem ipsum title" />
+      <PageModule title="lorem ipsum title" />
+      <PageModule title="lorem ipsum title" />
     </div>
   );
 }
