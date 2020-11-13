@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.scss';
 import Navbar from './components/Navbar';
 import PageModule from './components/PageModule';
+import Index from './components/Index';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,10 +26,22 @@ function App() {
 
         Hello World!
       </header>
-      <PageModule title="lorem ipsum title" />
-      <PageModule title="lorem ipsum title" />
-      <PageModule title="lorem ipsum title" />
-      <PageModule title="lorem ipsum title" />
+      {/* <Index/> */}
+      <div id="about-container">
+        <PageModule title="About"/>
+      </div>
+      {/* <PageModule title="Skills" /> */}
+      <div id="resume-container">
+        <PageModule title="Resume" />
+      </div>
+      <div id="something-container">
+        <PageModule title="lorem ipsum title" />
+      </div>
+      <div id="contact-container">
+        <PageModule title="Contact" />
+      </div>
+
+      <Footer/>
     </div>
   );
 }
